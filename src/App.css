@@ -1,0 +1,275 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Navbar */
+.navbar {
+  background-color: #f06522;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #f06522;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}
+
+/* Trip Section */
+.trip-section {
+  padding: 40px 20px;
+}
+
+.trip-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.trip-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 1200px;
+  margin: auto;
+}
+
+.trip-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  overflow: hidden;
+}
+
+.trip-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.trip-image img:hover {
+  transform: scale(1.05);
+}
+
+.trip-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.trip-content h3 {
+  font-size: 20px;
+  color: #0077b6;
+  margin-bottom: 8px;
+}
+
+.trip-content p {
+  font-size: 14px;
+  color: #555;
+}
+
+.trip-button {
+  margin-top: 10px;
+}
+
+.trip-button button {
+  background-color: #f06522;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Cairo', sans-serif;
+  font-size: 14px;
+}
+
+/* Header & Intro */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 80px auto 30px;
+  padding: 0 20px;
+}
+
+.logo img {
+  width: 120px;
+  border-radius: 12px;
+}
+
+.header-text h1 {
+  font-size: 45px;
+  color: #f06522;
+  margin: 0 10px;
+}
+
+.intro {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 32px;
+  color: #0077b6;
+}
+
+.intro p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-heading {
+  font-size: 18px;
+  color: #f06522;
+  margin-bottom: 2px;
+}
+
+.footer-subtitle {
+  font-size: 14px;
+  color: #ccc;
+  max-width: 600px;
+  line-height: 1.4;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.footer-icons a {
+  color: #f06522;
+  transition: transform 0.2s ease;
+}
+
+.footer-icons a:hover {
+  transform: scale(1.2);
+}
+
+.footer-location {
+  margin: 2px 0;
+  font-size: 13px;
+  color: #ddd;
+}
+
+.footer-location i {
+  margin-right: 5px;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.footer-logo {
+  width: 24px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+
