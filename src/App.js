@@ -112,7 +112,7 @@ export default function App() {
                 <p>{t.discover(trip.city)}</p>
                 <div className="trip-button">
                   <a
-                    href={`https://wa.me/905058029560?text=مرحبا، أود الاستفسار عن ${trip.city}`}
+                    href={`https://wa.me/9647744422120?text=مرحبا، أود الاستفسار عن ${trip.city}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -136,7 +136,7 @@ export default function App() {
           <button onClick={() => scrollToSection("daily")}>{t.daily}</button>
           <button onClick={() => scrollToSection("weekly")}>{t.weekly}</button>
           <button onClick={() => scrollToSection("special")}>{t.special}</button>
-          <a href="https://wa.me/905058029560?text=مرحبا، أريد التواصل مع فريقكم" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/9647744422120?text=مرحبا، أريد التواصل مع فريقكم" target="_blank" rel="noopener noreferrer">
             <button>{t.contact}</button>
           </a>
           <button onClick={() => setLang(lang === "ar" ? "en" : "ar")}>
@@ -152,14 +152,14 @@ export default function App() {
           <img src="/logo.png" alt="Logo" />
         </motion.div>
         <div className="header-text">
-          <motion.h1 initial={{ opacity: 0, x: 50 }} animate={controlsSiran}>Siran</motion.h1>
+          <motion.h1 initial={{ opacity: 0, x: 50 }} animate={controlsSiran}>Elia</motion.h1>
           <motion.h1 initial={{ opacity: 0, x: 50 }} animate={controlsTravel}>Travel</motion.h1>
         </div>
       </header>
 
       <section className="intro">
         <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
-          {t.welcome} <motion.span style={{ color: "#f06522" }}>سيران</motion.span> ترافل
+          {t.welcome} <motion.span style={{ color: "#D62828" }}>ايليا</motion.span> ترافل
         </motion.h2>
         <p style={{fontFamily: "Cairo, sans-serif" }}>{t.description}</p>
         </section>
@@ -170,7 +170,7 @@ export default function App() {
 
 <footer className="footer">
   <div className="footer-content">
-    <h3 className="footer-heading">📞 {lang === "ar" ? "تواصل معنا" : "Get in Touch"}</h3>
+    <h3 className="footer-heading"> {lang === "ar" ? "تواصل معنا" : "Get in Touch"}</h3>
     <p className="footer-subtitle">
       {lang === "ar"
         ? "نحن هنا للإجابة على جميع استفساراتكم ومساعدتكم في اختيار الرحلة المثالية!"
@@ -181,7 +181,7 @@ export default function App() {
   <a href="https://www.instagram.com/elia.tour?igsh=NnRybDNueDJ2ZHdj&utm_source=qr" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-instagram"></i>
   </a>
-  <a href="https://www.facebook.com/sirantravel2022https://www.facebook.com/share/19PKw6WQTc/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.facebook.com/share/19PKw6WQTc/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-facebook"></i>
   </a>
   <a href="https://wa.me/9647744422120" target="_blank" rel="noopener noreferrer">
@@ -197,9 +197,13 @@ export default function App() {
       <i className="fas fa-map-marker-alt"></i> Istanbul / Türkiye
     </p>
 
+        <p className="footer-location">
+      <i className="fas fa-map-marker-alt"></i> Najaf / Iraq
+    </p>
+
     <div className="footer-text">
       <img src="/logo.png" alt="Logo" className="footer-logo" />
-      <p>&copy; 2025 Siran Travel. All rights reserved.</p>
+      <p>&copy; 2025 Elia Tourism. All rights reserved.</p>
     </div>
   </div>
 </footer>

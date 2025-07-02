@@ -39,7 +39,7 @@
 
 /* Responsive Navbar */
 .navbar {
-  background-color: #f06522;
+  background-color: #D62828;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -81,7 +81,7 @@
   .nav-links {
     display: none;
     flex-direction: column;
-    background: #f06522;
+    background: #D62828;
     position: absolute;
     top: 60px;
     right: 10px;
@@ -152,7 +152,7 @@
 }
 
 .trip-button button {
-  background-color: #f06522;
+  background-color: #D62828;
   color: white;
   padding: 10px 20px;
   border-radius: 30px;
@@ -173,13 +173,13 @@
 }
 
 .logo img {
-  width: 120px;
+  width: 160px;
   border-radius: 12px;
 }
 
 .header-text h1 {
   font-size: 45px;
-  color: #f06522;
+  color: #D62828;
   margin: 0 10px;
 }
 
@@ -217,7 +217,7 @@
 
 .footer-heading {
   font-size: 18px;
-  color: #f06522;
+  color: #D62828;
   margin-bottom: 2px;
 }
 
@@ -238,7 +238,7 @@
 }
 
 .footer-icons a {
-  color: #f06522;
+  color: #D62828;
   transition: transform 0.2s ease;
 }
 
