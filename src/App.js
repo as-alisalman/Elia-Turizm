@@ -178,19 +178,19 @@ export default function App() {
     </p>
 
     <div className="footer-icons">
-  <a href="https://www.instagram.com/siran_travel_turkey?igsh=d2JsaXU3bjA1ZzM0&utm_source=qr" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.instagram.com/elia.tour?igsh=NnRybDNueDJ2ZHdj&utm_source=qr" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-instagram"></i>
   </a>
-  <a href="https://www.facebook.com/sirantravel2022" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.facebook.com/sirantravel2022https://www.facebook.com/share/19PKw6WQTc/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-facebook"></i>
   </a>
   <a href="https://www.snapchat.com/add/sirantravel1?share_id=jJ07SqXW57Y&locale=en-US" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-snapchat-ghost"></i>
   </a>
-  <a href="https://wa.me/905058029560" target="_blank" rel="noopener noreferrer">
+  <a href="https://wa.me/9647744422120" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-whatsapp"></i>
   </a>
-  <a href="tel:+905058029560">
+  <a href="tel:+905364765991">
     <i className="fas fa-phone-alt"></i>
   </a>
 </div>
