@@ -184,9 +184,6 @@ export default function App() {
   <a href="https://www.facebook.com/sirantravel2022https://www.facebook.com/share/19PKw6WQTc/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-facebook"></i>
   </a>
-  <a href="https://www.snapchat.com/add/sirantravel1?share_id=jJ07SqXW57Y&locale=en-US" target="_blank" rel="noopener noreferrer">
-    <i className="fab fa-snapchat-ghost"></i>
-  </a>
   <a href="https://wa.me/9647744422120" target="_blank" rel="noopener noreferrer">
     <i className="fab fa-whatsapp"></i>
   </a>
